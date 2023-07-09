@@ -1,0 +1,7 @@
+mysql:
+    server: 127.0.0.1
+    user: root
+    password: Zjc20020221.
+    dbname: chat
+    dbpoolsize: 2
+    port: 3306
