@@ -1,23 +1,19 @@
 #include "mysqldb.h"
 #include "config.h"
+#include "datamodel.h"
+#include "log.h"
+#include "rpc_application.h"
 #include <iostream>
+
+static sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();
 
 int main(int argc, char **argv)
 {
     sylar::Config::LoadFromConfDir("/root/projects/examples/chat_room/bin");
-    MySQLConnPoolMgr::GetInstance()->init();
-    for (int i = 0; i < 2; ++i)
-    {
-        MySQL *mysql = MySQLConnPoolMgr::GetInstance()->GetConnection();
-        MYSQL_RES *res = mysql->query("select * from user");
-        MYSQL_ROW row = mysql_fetch_row(res);
-        std::cout << row[0] << std::endl;
-        std::cout << row[1] << std::endl;
-        std::cout << row[2] << std::endl;
-        std::cout << row[3] << std::endl;
-        std::cout << row[4] << std::endl;
-        mysql_free_result(res);
-    }
-
+    RpcApplicationMgr::GetInstance()->Init();
+    SYLAR_LOG_INFO(g_logger) << RpcApplicationMgr::GetInstance()->getRpcIp()
+                             << RpcApplicationMgr::GetInstance()->getRpcPort()
+                             << RpcApplicationMgr::GetInstance()->getZkIp()
+                             << RpcApplicationMgr::GetInstance()->getZkPort();
     return 0;
 }

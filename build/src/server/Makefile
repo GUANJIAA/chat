@@ -130,6 +130,54 @@ ChatServer/fast:
 	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/build
 .PHONY : ChatServer/fast
 
+chatserver.o: chatserver.cc.o
+.PHONY : chatserver.o
+
+# target to build an object file
+chatserver.cc.o:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatserver.cc.o
+.PHONY : chatserver.cc.o
+
+chatserver.i: chatserver.cc.i
+.PHONY : chatserver.i
+
+# target to preprocess a source file
+chatserver.cc.i:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatserver.cc.i
+.PHONY : chatserver.cc.i
+
+chatserver.s: chatserver.cc.s
+.PHONY : chatserver.s
+
+# target to generate assembly for a file
+chatserver.cc.s:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatserver.cc.s
+.PHONY : chatserver.cc.s
+
+chatservice.o: chatservice.cc.o
+.PHONY : chatservice.o
+
+# target to build an object file
+chatservice.cc.o:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatservice.cc.o
+.PHONY : chatservice.cc.o
+
+chatservice.i: chatservice.cc.i
+.PHONY : chatservice.i
+
+# target to preprocess a source file
+chatservice.cc.i:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatservice.cc.i
+.PHONY : chatservice.cc.i
+
+chatservice.s: chatservice.cc.s
+.PHONY : chatservice.s
+
+# target to generate assembly for a file
+chatservice.cc.s:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatservice.cc.s
+.PHONY : chatservice.cc.s
+
 main.o: main.cc.o
 .PHONY : main.o
 
@@ -153,6 +201,30 @@ main.s: main.cc.s
 main.cc.s:
 	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cc.s
 .PHONY : main.cc.s
+
+model/datamodel.o: model/datamodel.cc.o
+.PHONY : model/datamodel.o
+
+# target to build an object file
+model/datamodel.cc.o:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/datamodel.cc.o
+.PHONY : model/datamodel.cc.o
+
+model/datamodel.i: model/datamodel.cc.i
+.PHONY : model/datamodel.i
+
+# target to preprocess a source file
+model/datamodel.cc.i:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/datamodel.cc.i
+.PHONY : model/datamodel.cc.i
+
+model/datamodel.s: model/datamodel.cc.s
+.PHONY : model/datamodel.s
+
+# target to generate assembly for a file
+model/datamodel.cc.s:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/datamodel.cc.s
+.PHONY : model/datamodel.cc.s
 
 mysqldb/mysqldb.o: mysqldb/mysqldb.cc.o
 .PHONY : mysqldb/mysqldb.o
@@ -178,6 +250,126 @@ mysqldb/mysqldb.cc.s:
 	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldb.cc.s
 .PHONY : mysqldb/mysqldb.cc.s
 
+rpc/rpc_application.o: rpc/rpc_application.cc.o
+.PHONY : rpc/rpc_application.o
+
+# target to build an object file
+rpc/rpc_application.cc.o:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/rpc/rpc_application.cc.o
+.PHONY : rpc/rpc_application.cc.o
+
+rpc/rpc_application.i: rpc/rpc_application.cc.i
+.PHONY : rpc/rpc_application.i
+
+# target to preprocess a source file
+rpc/rpc_application.cc.i:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/rpc/rpc_application.cc.i
+.PHONY : rpc/rpc_application.cc.i
+
+rpc/rpc_application.s: rpc/rpc_application.cc.s
+.PHONY : rpc/rpc_application.s
+
+# target to generate assembly for a file
+rpc/rpc_application.cc.s:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/rpc/rpc_application.cc.s
+.PHONY : rpc/rpc_application.cc.s
+
+rpc/rpc_channel.o: rpc/rpc_channel.cc.o
+.PHONY : rpc/rpc_channel.o
+
+# target to build an object file
+rpc/rpc_channel.cc.o:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/rpc/rpc_channel.cc.o
+.PHONY : rpc/rpc_channel.cc.o
+
+rpc/rpc_channel.i: rpc/rpc_channel.cc.i
+.PHONY : rpc/rpc_channel.i
+
+# target to preprocess a source file
+rpc/rpc_channel.cc.i:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/rpc/rpc_channel.cc.i
+.PHONY : rpc/rpc_channel.cc.i
+
+rpc/rpc_channel.s: rpc/rpc_channel.cc.s
+.PHONY : rpc/rpc_channel.s
+
+# target to generate assembly for a file
+rpc/rpc_channel.cc.s:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/rpc/rpc_channel.cc.s
+.PHONY : rpc/rpc_channel.cc.s
+
+rpc/rpc_controller.o: rpc/rpc_controller.cc.o
+.PHONY : rpc/rpc_controller.o
+
+# target to build an object file
+rpc/rpc_controller.cc.o:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/rpc/rpc_controller.cc.o
+.PHONY : rpc/rpc_controller.cc.o
+
+rpc/rpc_controller.i: rpc/rpc_controller.cc.i
+.PHONY : rpc/rpc_controller.i
+
+# target to preprocess a source file
+rpc/rpc_controller.cc.i:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/rpc/rpc_controller.cc.i
+.PHONY : rpc/rpc_controller.cc.i
+
+rpc/rpc_controller.s: rpc/rpc_controller.cc.s
+.PHONY : rpc/rpc_controller.s
+
+# target to generate assembly for a file
+rpc/rpc_controller.cc.s:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/rpc/rpc_controller.cc.s
+.PHONY : rpc/rpc_controller.cc.s
+
+rpc/rpc_header.pb.o: rpc/rpc_header.pb.cc.o
+.PHONY : rpc/rpc_header.pb.o
+
+# target to build an object file
+rpc/rpc_header.pb.cc.o:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/rpc/rpc_header.pb.cc.o
+.PHONY : rpc/rpc_header.pb.cc.o
+
+rpc/rpc_header.pb.i: rpc/rpc_header.pb.cc.i
+.PHONY : rpc/rpc_header.pb.i
+
+# target to preprocess a source file
+rpc/rpc_header.pb.cc.i:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/rpc/rpc_header.pb.cc.i
+.PHONY : rpc/rpc_header.pb.cc.i
+
+rpc/rpc_header.pb.s: rpc/rpc_header.pb.cc.s
+.PHONY : rpc/rpc_header.pb.s
+
+# target to generate assembly for a file
+rpc/rpc_header.pb.cc.s:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/rpc/rpc_header.pb.cc.s
+.PHONY : rpc/rpc_header.pb.cc.s
+
+rpc/zk_util.o: rpc/zk_util.cc.o
+.PHONY : rpc/zk_util.o
+
+# target to build an object file
+rpc/zk_util.cc.o:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/rpc/zk_util.cc.o
+.PHONY : rpc/zk_util.cc.o
+
+rpc/zk_util.i: rpc/zk_util.cc.i
+.PHONY : rpc/zk_util.i
+
+# target to preprocess a source file
+rpc/zk_util.cc.i:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/rpc/zk_util.cc.i
+.PHONY : rpc/zk_util.cc.i
+
+rpc/zk_util.s: rpc/zk_util.cc.s
+.PHONY : rpc/zk_util.s
+
+# target to generate assembly for a file
+rpc/zk_util.cc.s:
+	cd /root/projects/examples/chat_room/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/rpc/zk_util.cc.s
+.PHONY : rpc/zk_util.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -187,12 +379,36 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ChatServer"
+	@echo "... chatserver.o"
+	@echo "... chatserver.i"
+	@echo "... chatserver.s"
+	@echo "... chatservice.o"
+	@echo "... chatservice.i"
+	@echo "... chatservice.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... model/datamodel.o"
+	@echo "... model/datamodel.i"
+	@echo "... model/datamodel.s"
 	@echo "... mysqldb/mysqldb.o"
 	@echo "... mysqldb/mysqldb.i"
 	@echo "... mysqldb/mysqldb.s"
+	@echo "... rpc/rpc_application.o"
+	@echo "... rpc/rpc_application.i"
+	@echo "... rpc/rpc_application.s"
+	@echo "... rpc/rpc_channel.o"
+	@echo "... rpc/rpc_channel.i"
+	@echo "... rpc/rpc_channel.s"
+	@echo "... rpc/rpc_controller.o"
+	@echo "... rpc/rpc_controller.i"
+	@echo "... rpc/rpc_controller.s"
+	@echo "... rpc/rpc_header.pb.o"
+	@echo "... rpc/rpc_header.pb.i"
+	@echo "... rpc/rpc_header.pb.s"
+	@echo "... rpc/zk_util.o"
+	@echo "... rpc/zk_util.i"
+	@echo "... rpc/zk_util.s"
 .PHONY : help
 
 

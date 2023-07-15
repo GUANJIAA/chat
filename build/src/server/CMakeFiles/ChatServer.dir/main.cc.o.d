@@ -713,4 +713,18 @@ src/server/CMakeFiles/ChatServer.dir/main.cc.o: \
  /opt/rh/devtoolset-7/root/usr/include/c++/7/fstream \
  /opt/rh/devtoolset-7/root/usr/include/c++/7/x86_64-redhat-linux/bits/basic_file.h \
  /opt/rh/devtoolset-7/root/usr/include/c++/7/x86_64-redhat-linux/bits/c++io.h \
- /opt/rh/devtoolset-7/root/usr/include/c++/7/bits/fstream.tcc
+ /opt/rh/devtoolset-7/root/usr/include/c++/7/bits/fstream.tcc \
+ /root/projects/examples/chat_room/include/server/model/datamodel.h \
+ /root/projects/examples/chat_room/include/server/model/data.h \
+ /root/projects/examples/chat_room/include/server/rpc/rpc_application.h \
+ /root/projects/examples/chat_room/include/server/rpc/rpc_controller.h \
+ /usr/local/include/google/protobuf/service.h \
+ /usr/local/include/google/protobuf/stubs/callback.h \
+ /usr/local/include/google/protobuf/stubs/macros.h \
+ /usr/local/include/google/protobuf/port_def.inc \
+ /usr/local/include/google/protobuf/port_undef.inc \
+ /usr/local/include/google/protobuf/stubs/common.h \
+ /usr/local/include/google/protobuf/stubs/platform_macros.h \
+ /usr/local/include/google/protobuf/stubs/port.h /usr/include/byteswap.h \
+ /usr/local/include/google/protobuf/stubs/stringpiece.h \
+ /usr/local/include/google/protobuf/stubs/hash.h

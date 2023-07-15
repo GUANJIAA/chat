@@ -1,0 +1,5 @@
+rpc:
+  rpcip: 127.0.0.1
+  rpcport: 8000
+  zkip: 127.0.0.1
+  zkport: 2181

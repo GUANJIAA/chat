@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/root/projects/examples/chat_room/include -I/root/projects/examples/chat_room/include/server -I/root/projects/examples/chat_room/include/server/mysqldb -I/root/projects/examples/chat_room/thirdparty -I/root/projects/examples/chat_room/thirdparty/sylar/sylar
+CXX_INCLUDES = -I/root/projects/examples/chat_room/include -I/root/projects/examples/chat_room/include/server -I/root/projects/examples/chat_room/include/server/mysqldb -I/root/projects/examples/chat_room/include/server/model -I/root/projects/examples/chat_room/include/server/rpc -I/root/projects/examples/chat_room/thirdparty -I/root/projects/examples/chat_room/thirdparty/sylar/sylar
 
 CXX_FLAGS = -g
 

@@ -15,7 +15,7 @@ public:
     void resetState();
 };
 
-class offlineMsgModel
+class OfflineMsgModel
 {
 public:
     void insert(int userid, std::string msg);
@@ -29,7 +29,7 @@ public:
     bool createGroup(Group &group);
     void addGroup(int userid, int groupid, std::string role);
     std::vector<Group> queryGroups(int userid);
-    std::vector<int> queryGroups(int userid, int groupid);
+    std::vector<int> queryGroupsUsers(int userid, int groupid);
 };
 
 class FriendModel

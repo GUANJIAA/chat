@@ -69,10 +69,38 @@ include src/server/CMakeFiles/ChatServer.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/server/CMakeFiles/ChatServer.dir/flags.make
 
+src/server/CMakeFiles/ChatServer.dir/chatserver.cc.o: src/server/CMakeFiles/ChatServer.dir/flags.make
+src/server/CMakeFiles/ChatServer.dir/chatserver.cc.o: /root/projects/examples/chat_room/src/server/chatserver.cc
+src/server/CMakeFiles/ChatServer.dir/chatserver.cc.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/projects/examples/chat_room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/server/CMakeFiles/ChatServer.dir/chatserver.cc.o"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/chatserver.cc.o -MF CMakeFiles/ChatServer.dir/chatserver.cc.o.d -o CMakeFiles/ChatServer.dir/chatserver.cc.o -c /root/projects/examples/chat_room/src/server/chatserver.cc
+
+src/server/CMakeFiles/ChatServer.dir/chatserver.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/chatserver.cc.i"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/projects/examples/chat_room/src/server/chatserver.cc > CMakeFiles/ChatServer.dir/chatserver.cc.i
+
+src/server/CMakeFiles/ChatServer.dir/chatserver.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/chatserver.cc.s"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/projects/examples/chat_room/src/server/chatserver.cc -o CMakeFiles/ChatServer.dir/chatserver.cc.s
+
+src/server/CMakeFiles/ChatServer.dir/chatservice.cc.o: src/server/CMakeFiles/ChatServer.dir/flags.make
+src/server/CMakeFiles/ChatServer.dir/chatservice.cc.o: /root/projects/examples/chat_room/src/server/chatservice.cc
+src/server/CMakeFiles/ChatServer.dir/chatservice.cc.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/projects/examples/chat_room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/server/CMakeFiles/ChatServer.dir/chatservice.cc.o"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/chatservice.cc.o -MF CMakeFiles/ChatServer.dir/chatservice.cc.o.d -o CMakeFiles/ChatServer.dir/chatservice.cc.o -c /root/projects/examples/chat_room/src/server/chatservice.cc
+
+src/server/CMakeFiles/ChatServer.dir/chatservice.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/chatservice.cc.i"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/projects/examples/chat_room/src/server/chatservice.cc > CMakeFiles/ChatServer.dir/chatservice.cc.i
+
+src/server/CMakeFiles/ChatServer.dir/chatservice.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/chatservice.cc.s"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/projects/examples/chat_room/src/server/chatservice.cc -o CMakeFiles/ChatServer.dir/chatservice.cc.s
+
 src/server/CMakeFiles/ChatServer.dir/main.cc.o: src/server/CMakeFiles/ChatServer.dir/flags.make
 src/server/CMakeFiles/ChatServer.dir/main.cc.o: /root/projects/examples/chat_room/src/server/main.cc
 src/server/CMakeFiles/ChatServer.dir/main.cc.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/projects/examples/chat_room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/server/CMakeFiles/ChatServer.dir/main.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/projects/examples/chat_room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/server/CMakeFiles/ChatServer.dir/main.cc.o"
 	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/main.cc.o -MF CMakeFiles/ChatServer.dir/main.cc.o.d -o CMakeFiles/ChatServer.dir/main.cc.o -c /root/projects/examples/chat_room/src/server/main.cc
 
 src/server/CMakeFiles/ChatServer.dir/main.cc.i: cmake_force
@@ -86,7 +114,7 @@ src/server/CMakeFiles/ChatServer.dir/main.cc.s: cmake_force
 src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldb.cc.o: src/server/CMakeFiles/ChatServer.dir/flags.make
 src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldb.cc.o: /root/projects/examples/chat_room/src/server/mysqldb/mysqldb.cc
 src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldb.cc.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/projects/examples/chat_room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/projects/examples/chat_room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldb.cc.o"
 	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldb.cc.o -MF CMakeFiles/ChatServer.dir/mysqldb/mysqldb.cc.o.d -o CMakeFiles/ChatServer.dir/mysqldb/mysqldb.cc.o -c /root/projects/examples/chat_room/src/server/mysqldb/mysqldb.cc
 
 src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldb.cc.i: cmake_force
@@ -97,22 +125,123 @@ src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/mysqldb/mysqldb.cc.s"
 	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/projects/examples/chat_room/src/server/mysqldb/mysqldb.cc -o CMakeFiles/ChatServer.dir/mysqldb/mysqldb.cc.s
 
+src/server/CMakeFiles/ChatServer.dir/model/datamodel.cc.o: src/server/CMakeFiles/ChatServer.dir/flags.make
+src/server/CMakeFiles/ChatServer.dir/model/datamodel.cc.o: /root/projects/examples/chat_room/src/server/model/datamodel.cc
+src/server/CMakeFiles/ChatServer.dir/model/datamodel.cc.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/projects/examples/chat_room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/server/CMakeFiles/ChatServer.dir/model/datamodel.cc.o"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/model/datamodel.cc.o -MF CMakeFiles/ChatServer.dir/model/datamodel.cc.o.d -o CMakeFiles/ChatServer.dir/model/datamodel.cc.o -c /root/projects/examples/chat_room/src/server/model/datamodel.cc
+
+src/server/CMakeFiles/ChatServer.dir/model/datamodel.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/model/datamodel.cc.i"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/projects/examples/chat_room/src/server/model/datamodel.cc > CMakeFiles/ChatServer.dir/model/datamodel.cc.i
+
+src/server/CMakeFiles/ChatServer.dir/model/datamodel.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/model/datamodel.cc.s"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/projects/examples/chat_room/src/server/model/datamodel.cc -o CMakeFiles/ChatServer.dir/model/datamodel.cc.s
+
+src/server/CMakeFiles/ChatServer.dir/rpc/rpc_application.cc.o: src/server/CMakeFiles/ChatServer.dir/flags.make
+src/server/CMakeFiles/ChatServer.dir/rpc/rpc_application.cc.o: /root/projects/examples/chat_room/src/server/rpc/rpc_application.cc
+src/server/CMakeFiles/ChatServer.dir/rpc/rpc_application.cc.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/projects/examples/chat_room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/server/CMakeFiles/ChatServer.dir/rpc/rpc_application.cc.o"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/rpc/rpc_application.cc.o -MF CMakeFiles/ChatServer.dir/rpc/rpc_application.cc.o.d -o CMakeFiles/ChatServer.dir/rpc/rpc_application.cc.o -c /root/projects/examples/chat_room/src/server/rpc/rpc_application.cc
+
+src/server/CMakeFiles/ChatServer.dir/rpc/rpc_application.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/rpc/rpc_application.cc.i"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/projects/examples/chat_room/src/server/rpc/rpc_application.cc > CMakeFiles/ChatServer.dir/rpc/rpc_application.cc.i
+
+src/server/CMakeFiles/ChatServer.dir/rpc/rpc_application.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/rpc/rpc_application.cc.s"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/projects/examples/chat_room/src/server/rpc/rpc_application.cc -o CMakeFiles/ChatServer.dir/rpc/rpc_application.cc.s
+
+src/server/CMakeFiles/ChatServer.dir/rpc/rpc_channel.cc.o: src/server/CMakeFiles/ChatServer.dir/flags.make
+src/server/CMakeFiles/ChatServer.dir/rpc/rpc_channel.cc.o: /root/projects/examples/chat_room/src/server/rpc/rpc_channel.cc
+src/server/CMakeFiles/ChatServer.dir/rpc/rpc_channel.cc.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/projects/examples/chat_room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/server/CMakeFiles/ChatServer.dir/rpc/rpc_channel.cc.o"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/rpc/rpc_channel.cc.o -MF CMakeFiles/ChatServer.dir/rpc/rpc_channel.cc.o.d -o CMakeFiles/ChatServer.dir/rpc/rpc_channel.cc.o -c /root/projects/examples/chat_room/src/server/rpc/rpc_channel.cc
+
+src/server/CMakeFiles/ChatServer.dir/rpc/rpc_channel.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/rpc/rpc_channel.cc.i"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/projects/examples/chat_room/src/server/rpc/rpc_channel.cc > CMakeFiles/ChatServer.dir/rpc/rpc_channel.cc.i
+
+src/server/CMakeFiles/ChatServer.dir/rpc/rpc_channel.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/rpc/rpc_channel.cc.s"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/projects/examples/chat_room/src/server/rpc/rpc_channel.cc -o CMakeFiles/ChatServer.dir/rpc/rpc_channel.cc.s
+
+src/server/CMakeFiles/ChatServer.dir/rpc/rpc_controller.cc.o: src/server/CMakeFiles/ChatServer.dir/flags.make
+src/server/CMakeFiles/ChatServer.dir/rpc/rpc_controller.cc.o: /root/projects/examples/chat_room/src/server/rpc/rpc_controller.cc
+src/server/CMakeFiles/ChatServer.dir/rpc/rpc_controller.cc.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/projects/examples/chat_room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/server/CMakeFiles/ChatServer.dir/rpc/rpc_controller.cc.o"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/rpc/rpc_controller.cc.o -MF CMakeFiles/ChatServer.dir/rpc/rpc_controller.cc.o.d -o CMakeFiles/ChatServer.dir/rpc/rpc_controller.cc.o -c /root/projects/examples/chat_room/src/server/rpc/rpc_controller.cc
+
+src/server/CMakeFiles/ChatServer.dir/rpc/rpc_controller.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/rpc/rpc_controller.cc.i"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/projects/examples/chat_room/src/server/rpc/rpc_controller.cc > CMakeFiles/ChatServer.dir/rpc/rpc_controller.cc.i
+
+src/server/CMakeFiles/ChatServer.dir/rpc/rpc_controller.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/rpc/rpc_controller.cc.s"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/projects/examples/chat_room/src/server/rpc/rpc_controller.cc -o CMakeFiles/ChatServer.dir/rpc/rpc_controller.cc.s
+
+src/server/CMakeFiles/ChatServer.dir/rpc/rpc_header.pb.cc.o: src/server/CMakeFiles/ChatServer.dir/flags.make
+src/server/CMakeFiles/ChatServer.dir/rpc/rpc_header.pb.cc.o: /root/projects/examples/chat_room/src/server/rpc/rpc_header.pb.cc
+src/server/CMakeFiles/ChatServer.dir/rpc/rpc_header.pb.cc.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/projects/examples/chat_room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/server/CMakeFiles/ChatServer.dir/rpc/rpc_header.pb.cc.o"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/rpc/rpc_header.pb.cc.o -MF CMakeFiles/ChatServer.dir/rpc/rpc_header.pb.cc.o.d -o CMakeFiles/ChatServer.dir/rpc/rpc_header.pb.cc.o -c /root/projects/examples/chat_room/src/server/rpc/rpc_header.pb.cc
+
+src/server/CMakeFiles/ChatServer.dir/rpc/rpc_header.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/rpc/rpc_header.pb.cc.i"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/projects/examples/chat_room/src/server/rpc/rpc_header.pb.cc > CMakeFiles/ChatServer.dir/rpc/rpc_header.pb.cc.i
+
+src/server/CMakeFiles/ChatServer.dir/rpc/rpc_header.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/rpc/rpc_header.pb.cc.s"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/projects/examples/chat_room/src/server/rpc/rpc_header.pb.cc -o CMakeFiles/ChatServer.dir/rpc/rpc_header.pb.cc.s
+
+src/server/CMakeFiles/ChatServer.dir/rpc/zk_util.cc.o: src/server/CMakeFiles/ChatServer.dir/flags.make
+src/server/CMakeFiles/ChatServer.dir/rpc/zk_util.cc.o: /root/projects/examples/chat_room/src/server/rpc/zk_util.cc
+src/server/CMakeFiles/ChatServer.dir/rpc/zk_util.cc.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/projects/examples/chat_room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/server/CMakeFiles/ChatServer.dir/rpc/zk_util.cc.o"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/rpc/zk_util.cc.o -MF CMakeFiles/ChatServer.dir/rpc/zk_util.cc.o.d -o CMakeFiles/ChatServer.dir/rpc/zk_util.cc.o -c /root/projects/examples/chat_room/src/server/rpc/zk_util.cc
+
+src/server/CMakeFiles/ChatServer.dir/rpc/zk_util.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/rpc/zk_util.cc.i"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/projects/examples/chat_room/src/server/rpc/zk_util.cc > CMakeFiles/ChatServer.dir/rpc/zk_util.cc.i
+
+src/server/CMakeFiles/ChatServer.dir/rpc/zk_util.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/rpc/zk_util.cc.s"
+	cd /root/projects/examples/chat_room/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/projects/examples/chat_room/src/server/rpc/zk_util.cc -o CMakeFiles/ChatServer.dir/rpc/zk_util.cc.s
+
 # Object files for target ChatServer
 ChatServer_OBJECTS = \
+"CMakeFiles/ChatServer.dir/chatserver.cc.o" \
+"CMakeFiles/ChatServer.dir/chatservice.cc.o" \
 "CMakeFiles/ChatServer.dir/main.cc.o" \
-"CMakeFiles/ChatServer.dir/mysqldb/mysqldb.cc.o"
+"CMakeFiles/ChatServer.dir/mysqldb/mysqldb.cc.o" \
+"CMakeFiles/ChatServer.dir/model/datamodel.cc.o" \
+"CMakeFiles/ChatServer.dir/rpc/rpc_application.cc.o" \
+"CMakeFiles/ChatServer.dir/rpc/rpc_channel.cc.o" \
+"CMakeFiles/ChatServer.dir/rpc/rpc_controller.cc.o" \
+"CMakeFiles/ChatServer.dir/rpc/rpc_header.pb.cc.o" \
+"CMakeFiles/ChatServer.dir/rpc/zk_util.cc.o"
 
 # External object files for target ChatServer
 ChatServer_EXTERNAL_OBJECTS =
 
+/root/projects/examples/chat_room/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/chatserver.cc.o
+/root/projects/examples/chat_room/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/chatservice.cc.o
 /root/projects/examples/chat_room/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/main.cc.o
 /root/projects/examples/chat_room/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/mysqldb/mysqldb.cc.o
+/root/projects/examples/chat_room/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/model/datamodel.cc.o
+/root/projects/examples/chat_room/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/rpc/rpc_application.cc.o
+/root/projects/examples/chat_room/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/rpc/rpc_channel.cc.o
+/root/projects/examples/chat_room/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/rpc/rpc_controller.cc.o
+/root/projects/examples/chat_room/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/rpc/rpc_header.pb.cc.o
+/root/projects/examples/chat_room/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/rpc/zk_util.cc.o
 /root/projects/examples/chat_room/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/build.make
 /root/projects/examples/chat_room/bin/ChatServer: /root/projects/examples/chat_room/thirdparty/sylar/lib/libsylar.so
 /root/projects/examples/chat_room/bin/ChatServer: /root/projects/examples/chat_room/thirdparty/sylar/lib/libsylar.so
 /root/projects/examples/chat_room/bin/ChatServer: /usr/lib64/mysql/libmysqlclient.so
+/root/projects/examples/chat_room/bin/ChatServer: /usr/local/lib/libzookeeper_mt.so
 /root/projects/examples/chat_room/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/projects/examples/chat_room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /root/projects/examples/chat_room/bin/ChatServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/projects/examples/chat_room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable /root/projects/examples/chat_room/bin/ChatServer"
 	cd /root/projects/examples/chat_room/build/src/server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ChatServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
